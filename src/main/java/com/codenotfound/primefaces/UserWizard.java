@@ -24,7 +24,7 @@ public class UserWizard implements Serializable {
     }
      
     public void save() {  
-    	CorreoVista.enviarConGMail("antonio.calle@aytos.es","Prueba",user.toString());
+    	CorreoVista.enviarConGMail("lucisaavedra98@gmail.com","Prueba",user.toString());
     	
         FacesMessage msg = new FacesMessage("Éxit", "Bienvenido :" + user.getNombre());
         FacesContext.getCurrentInstance().addMessage(null, msg);
