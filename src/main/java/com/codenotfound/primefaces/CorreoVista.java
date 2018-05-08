@@ -61,7 +61,7 @@ public class CorreoVista {
 	public static void enviarConGMail(String destinatario, String asunto, String cuerpo) {
 	    // Esto es lo que va delante de @gmail.com en tu cuenta de correo. Es el remitente también.
 	    String remitente = "lucisaavedra98";  //Para la dirección nomcuenta@gmail.com
-	    String clave="mdxhdfhsdghdfg"; //mi clave de cuenta gmail.
+	    String clave=""; //mi clave de cuenta gmail.
 	    
 	    Properties props = System.getProperties();
 	    props.put("mail.smtp.host", "smtp.gmail.com");  //El servidor SMTP de Google
